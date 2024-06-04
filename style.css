@@ -1,0 +1,30 @@
+
+.card{
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.card:hover{
+    opacity: 0.5;
+}
+.custom-height{
+    height: 800px;
+}
+.card-img:hover{
+    opacity: 0.5;
+}
+.pos-relative {
+    position: relative;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background: none; /* Optional: to make the text more readable */
+    padding: 20px; /* Optional: to add some padding around the text */
+    border-radius: 10px; /* Optional: to add rounded corners */
+}
